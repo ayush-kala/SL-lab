@@ -1,0 +1,16 @@
+# we use the function of dictionary
+
+students = {'1MS17IS022':'Alisha','1MS17IS023':'jake'}
+list = ["value1","value2","value3"]
+
+j = 0
+
+for i in students:
+    print("Key is ",i," and value is ",students[i])
+    list[j] = students[i]
+    j = j+1
+
+print(list)
+print(students.keys)
+print(students.values())
+© 2019 GitHub, Inc.
